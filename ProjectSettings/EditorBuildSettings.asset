@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Loading Scene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Lecture Scene.unity
+    guid: 156a582b981af34408b760b57cb54d8a
+  - enabled: 1
+    path: Assets/Scenes/Ohms Experiment.unity
+    guid: 3bf73354db592b14cba6a9dfa7c4421b
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8c80141c8a09a6f41b79bfd940b9dbce, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 93a5bfa480332034487f95596fabea0b, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f36b494d1117c51448bf1d7d8214206d, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 602b4dec4a694994199b04a1f5c53cce, type: 2}
