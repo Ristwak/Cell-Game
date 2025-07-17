@@ -172,7 +172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8503759062468167988, guid: 114d56365166fae4d9e466e660265117, type: 3}
       propertyPath: m_Name
-      value: BezierCurveBig
+      value: Rough ER
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -189,7 +189,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 373713113259324368, guid: c5bb56e32289c314eaacc92cff9799b4, type: 3}
       propertyPath: m_Name
-      value: BezierCurveSmall
+      value: Smooth ER
       objectReference: {fileID: 0}
     - target: {fileID: 5568641267363007139, guid: c5bb56e32289c314eaacc92cff9799b4, type: 3}
       propertyPath: m_LocalScale.x
@@ -724,7 +724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  expectedOrganelleName: BezierCurveBig
+  expectedOrganelleName: Rough ER
   correctMaterial: {fileID: 2100000, guid: e3c5e6968fca8b14f8e8467b35085f02, type: 2}
 --- !u!1001 &723652177
 PrefabInstance:
@@ -4490,7 +4490,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 678994853839637385, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
       propertyPath: expectedOrganelleName
-      value: BezierCurveSmall
+      value: Smooth ER
       objectReference: {fileID: 0}
     - target: {fileID: 1385280170740191830, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
       propertyPath: m_Convex
@@ -4550,7 +4550,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3997453416484953293, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
       propertyPath: m_Name
-      value: BezierCurveBig
+      value: Rough ER
       objectReference: {fileID: 0}
     - target: {fileID: 5457322333507242680, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
       propertyPath: m_Convex
@@ -4570,7 +4570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5872106631686344009, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
       propertyPath: m_Name
-      value: BezierCurveSmall
+      value: Smooth ER
       objectReference: {fileID: 0}
     - target: {fileID: 7157813284885873266, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
       propertyPath: m_Name

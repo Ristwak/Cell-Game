@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5875784799956394927}
   - component: {fileID: -6540770356308079542}
   m_Layer: 0
-  m_Name: BezierCurveSmall
+  m_Name: Smooth ER
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

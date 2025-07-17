@@ -3,62 +3,56 @@
     {
       "name": "BezierCurve",
       "description": "Helps visualize or simulate a structure path in the cell.",
-      "function": "Placeholder visual component, not a real organelle."
+      "function": "Placeholder visual component, not a real organelle.",
+      "correctName": null
     },
     {
-      "name": "BezierCurve 2",
+      "name": "BezierCurve",
       "description": "Another Bezier curve for visual representation.",
-      "function": "Placeholder visual component, not a real organelle."
+      "function": "Placeholder visual component, not a real organelle.",
+      "correctName": "BezierCurve"
     },
     {
       "name": "Nucleus",
       "description": "Control center of the cell containing genetic material (DNA).",
-      "function": "Regulates cell activities and stores genetic information."
+      "function": "Regulates cell activities and stores genetic information.",
+      "correctName": "Nucleus"
     },
     {
       "name": "Mitochondrion",
       "description": "Powerhouse of the cell.",
-      "function": "Generates energy in the form of ATP."
+      "function": "Generates energy in the form of ATP.",
+      "correctName": "Mitochondrion"
     },
     {
       "name": "Cell Membrane",
       "description": "Outer boundary of the cell.",
-      "function": "Controls the movement of substances in and out of the cell."
+      "function": "Controls the movement of substances in and out of the cell.",
+      "correctName": "Cell Membrane"
     },
     {
       "name": "Centrosome",
       "description": "Structure involved in cell division.",
-      "function": "Organizes microtubules and provides structure."
+      "function": "Organizes microtubules and provides structure.",
+      "correctName": "Centrosome"
     },
     {
       "name": "Golgi Apparatus",
       "description": "Modifies, sorts, and packages proteins and lipids.",
-      "function": "Prepares molecules for use inside or outside the cell."
+      "function": "Prepares molecules for use inside or outside the cell.",
+      "correctName": "Golgi Apparatus"
     },
     {
-      "name": "Endoplasmic Reticulum 1",
-      "description": "Network of membranes within the cell.",
-      "function": "Synthesizes proteins and lipids."
-    },
-    {
-      "name": "Endoplasmic Reticulum 2",
+      "name": "Endoplasmic Reticulum",
       "description": "Another ER section for modeling clarity.",
-      "function": "Also contributes to protein/lipid synthesis."
+      "function": "Also contributes to protein/lipid synthesis.",
+      "correctName": "Endoplasmic Reticulum"
     },
     {
-      "name": "Lysosomes 1",
-      "description": "Organelles containing digestive enzymes.",
-      "function": "Break down waste materials and cellular debris."
-    },
-    {
-      "name": "Lysosomes 2",
-      "description": "Second lysosome model.",
-      "function": "Part of the digestive system of the cell."
-    },
-    {
-      "name": "Lysosomes 3",
+      "name": "Lysosomes",
       "description": "Third lysosome model.",
-      "function": "Continues breakdown of materials."
+      "function": "Continues breakdown of materials.",
+      "correctName": "Lysosomes"
     }
   ]
 }
