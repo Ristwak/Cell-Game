@@ -22,9 +22,10 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Unity_Hand_Medium
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_Parent: {fileID: 2100000, guid: 19c85b39e51e557458340589167c8fb4, type: 2}
+  m_Parent: {fileID: 2100000, guid: 07c2795a3fc76224f9e44b842ccf3ff0, type: 2}
   m_ModifiedSerializedProperties: 2
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _GLOSSYREFLECTIONS_OFF
   m_InvalidKeywords:
   - _BUILTIN_SURFACE_TYPE_TRANSPARENT
   - _SURFACE_TYPE_TRANSPARENT
