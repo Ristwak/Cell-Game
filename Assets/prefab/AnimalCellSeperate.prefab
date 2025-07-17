@@ -976,7 +976,7 @@ GameObject:
   - component: {fileID: 2170205613265018291}
   - component: {fileID: 2517774661892012554}
   m_Layer: 0
-  m_Name: BezierCurve
+  m_Name: BezierCurveSmall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2370,7 +2370,7 @@ GameObject:
   - component: {fileID: 5984122181322664323}
   - component: {fileID: 7414973280365903939}
   m_Layer: 0
-  m_Name: BezierCurve
+  m_Name: BezierCurveBig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
