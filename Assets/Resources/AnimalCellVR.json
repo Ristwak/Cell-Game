@@ -1,58 +1,46 @@
 {
-  "organelles": [
-    {
-      "name": "BezierCurve",
-      "description": "Helps visualize or simulate a structure path in the cell.",
-      "function": "Placeholder visual component, not a real organelle.",
-      "correctName": null
-    },
-    {
-      "name": "BezierCurve",
-      "description": "Another Bezier curve for visual representation.",
-      "function": "Placeholder visual component, not a real organelle.",
-      "correctName": "BezierCurve"
-    },
-    {
-      "name": "Nucleus",
-      "description": "Control center of the cell containing genetic material (DNA).",
-      "function": "Regulates cell activities and stores genetic information.",
-      "correctName": "Nucleus"
-    },
-    {
-      "name": "Mitochondrion",
-      "description": "Powerhouse of the cell.",
-      "function": "Generates energy in the form of ATP.",
-      "correctName": "Mitochondrion"
-    },
-    {
-      "name": "Cell Membrane",
-      "description": "Outer boundary of the cell.",
-      "function": "Controls the movement of substances in and out of the cell.",
-      "correctName": "Cell Membrane"
-    },
-    {
-      "name": "Centrosome",
-      "description": "Structure involved in cell division.",
-      "function": "Organizes microtubules and provides structure.",
-      "correctName": "Centrosome"
-    },
-    {
-      "name": "Golgi Apparatus",
-      "description": "Modifies, sorts, and packages proteins and lipids.",
-      "function": "Prepares molecules for use inside or outside the cell.",
-      "correctName": "Golgi Apparatus"
-    },
-    {
-      "name": "Endoplasmic Reticulum",
-      "description": "Another ER section for modeling clarity.",
-      "function": "Also contributes to protein/lipid synthesis.",
-      "correctName": "Endoplasmic Reticulum"
-    },
-    {
-      "name": "Lysosomes",
-      "description": "Third lysosome model.",
-      "function": "Continues breakdown of materials.",
-      "correctName": "Lysosomes"
-    }
-  ]
+    "organelles": [
+        {
+            "name": "Rough ER",
+            "description": "Network of membranes with ribosomes attached.",
+            "function": "Synthesizes proteins.",
+            "correctAnswer": "Rough Endoplasmic Reticulum"
+        },
+        {
+            "name": "Smooth ER",
+            "description": "Network of smooth membranes without ribosomes.",
+            "function": "Synthesizes lipids and detoxifies harmful substances.",
+            "correctAnswer": "Smooth Endoplasmic Reticulum"
+        },
+        {
+            "name": "Nucleus",
+            "description": "Control center of the cell containing genetic material (DNA).",
+            "function": "Regulates cell activities and stores genetic information.",
+            "correctName": "Nucleus"
+        },
+        {
+            "name": "Mitochondrion",
+            "description": "Powerhouse of the cell.",
+            "function": "Generates energy in the form of ATP.",
+            "correctName": "Mitochondrion"
+        },
+        {
+            "name": "Golgi Apparatus",
+            "description": "Modifies, sorts, and packages proteins and lipids.",
+            "function": "Prepares molecules for use inside or outside the cell.",
+            "correctName": "Golgi Apparatus"
+        },
+        {
+            "name": "Endoplasmic Reticulum",
+            "description": "Another ER section for modeling clarity.",
+            "function": "Also contributes to protein/lipid synthesis.",
+            "correctName": "Endoplasmic Reticulum"
+        },
+        {
+            "name": "Lysosomes",
+            "description": "Third lysosome model.",
+            "function": "Continues breakdown of materials.",
+            "correctName": "Lysosomes"
+        }
+    ]
 }
