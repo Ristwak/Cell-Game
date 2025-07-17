@@ -148,79 +148,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.19925646, y: 0.09191353, z: 0}
   m_Center: {x: 0.014471374, y: 0.04669893, z: -0.03624714}
---- !u!1001 &275033107
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 275037674464505558, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
-      propertyPath: m_Name
-      value: Lysosomes
-      objectReference: {fileID: 0}
-    - target: {fileID: 8527974732673644756, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8527974732673644756, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8527974732673644756, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8527974732673644756, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.89
-      objectReference: {fileID: 0}
-    - target: {fileID: 8527974732673644756, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.31
-      objectReference: {fileID: 0}
-    - target: {fileID: 8527974732673644756, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4.461
-      objectReference: {fileID: 0}
-    - target: {fileID: 8527974732673644756, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.009418539
-      objectReference: {fileID: 0}
-    - target: {fileID: 8527974732673644756, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.049014963
-      objectReference: {fileID: 0}
-    - target: {fileID: 8527974732673644756, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7057937
-      objectReference: {fileID: 0}
-    - target: {fileID: 8527974732673644756, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.706657
-      objectReference: {fileID: 0}
-    - target: {fileID: 8527974732673644756, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8527974732673644756, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8527974732673644756, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8527974732673644756, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3fa134c0af12c9d43aef202771cdc8b1, type: 3}
 --- !u!1 &369105495
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,16 +193,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   organelles:
-  - {fileID: 8224868289440660086}
+  - {fileID: 0}
   - {fileID: 3848905520217490313}
-  - {fileID: 8341031622014934911}
+  - {fileID: 0}
   - {fileID: 3507246653460119891}
   - {fileID: 0}
   - {fileID: 4979720401565625852}
-  - {fileID: 8811481056132573888}
-  - {fileID: 7031906172057552746}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 3522106410664545268}
-  - {fileID: 4776242196238584970}
+  - {fileID: 0}
   - {fileID: 2760109143985215073}
   - {fileID: 1877185504135603074}
 --- !u!1 &445153966 stripped
@@ -398,11 +325,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &742813704 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2854565264771690804, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &787530623
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,79 +471,6 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 7990873191231833673, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
   m_PrefabInstance: {fileID: 943961617}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1259012222
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7704138485586197243, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
-      propertyPath: m_Name
-      value: Nucleus
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718145398542874824, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718145398542874824, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718145398542874824, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718145398542874824, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.825
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718145398542874824, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.473
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718145398542874824, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4.667
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718145398542874824, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071067
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718145398542874824, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718145398542874824, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718145398542874824, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718145398542874824, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718145398542874824, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718145398542874824, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718145398542874824, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 730e19ffb52b9d643b1b83efe9c27e75, type: 3}
 --- !u!1 &1350687193 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1460438438265819973, guid: 83830b5732a65914d9ac4304d573b9bf, type: 3}
@@ -842,19 +691,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 334832260967668596, guid: 7d25d8045e2afab48b6f5944da7b440a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3072552384546239902, guid: 7d25d8045e2afab48b6f5944da7b440a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.05
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3072552384546239902, guid: 7d25d8045e2afab48b6f5944da7b440a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.05
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3072552384546239902, guid: 7d25d8045e2afab48b6f5944da7b440a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.05
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3072552384546239902, guid: 7d25d8045e2afab48b6f5944da7b440a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1739,11 +1588,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &934759076938775208 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4904341309632611014, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!33 &950193936001472362
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1887,11 +1731,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9101422620103264295}
   m_Mesh: {fileID: 1590486895751401025, guid: 9b545d506946b51489e9814088e1ae76, type: 3}
---- !u!1 &1170995967090404205 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3786307410310416843, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!23 &1178897023530779100
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3439,11 +3278,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8755012794763049388}
   m_Mesh: {fileID: 4579119203723212510, guid: 9b545d506946b51489e9814088e1ae76, type: 3}
---- !u!1 &3147096876790139120 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2799488695445514334, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!23 &3227717187560817393
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3668,62 +3502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GhostAnimalCellSeperate
       objectReference: {fileID: 0}
-    - target: {fileID: 852526472637287499, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      propertyPath: m_Name
-      value: Mitochondrion Parent
-      objectReference: {fileID: 0}
-    - target: {fileID: 1018017493917070024, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      propertyPath: m_Name
-      value: Endoplasmic Reticulum
-      objectReference: {fileID: 0}
-    - target: {fileID: 1115276660767683411, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      propertyPath: m_Name
-      value: Endoplasmic Reticulum Parent
-      objectReference: {fileID: 0}
-    - target: {fileID: 2337377321965169787, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      propertyPath: m_Name
-      value: Lysosomes
-      objectReference: {fileID: 0}
-    - target: {fileID: 2344699161642410662, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      propertyPath: m_Name
-      value: Lysosomes
-      objectReference: {fileID: 0}
-    - target: {fileID: 2854565264771690804, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      propertyPath: m_Name
-      value: Golgi Apparatus
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993050126480793872, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      propertyPath: m_Name
-      value: BezierCurve Parent
-      objectReference: {fileID: 0}
-    - target: {fileID: 4171397022541155118, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      propertyPath: m_Name
-      value: Lysosomes Parent
-      objectReference: {fileID: 0}
-    - target: {fileID: 4977291840518885472, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      propertyPath: m_Name
-      value: Lysosomes
-      objectReference: {fileID: 0}
-    - target: {fileID: 5483942679172159328, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
+    - target: {fileID: 6321443577874879144, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e3756cbe08ab5f4459a945984d32ebaf, type: 2}
-    - target: {fileID: 5617318593750338243, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      propertyPath: m_Name
-      value: Golgi Apparatus parent
-      objectReference: {fileID: 0}
-    - target: {fileID: 5872106631686344009, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      propertyPath: m_Name
-      value: BezierCurve
-      objectReference: {fileID: 0}
-    - target: {fileID: 6597923158541921594, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      propertyPath: m_Name
-      value: Centrosome
-      objectReference: {fileID: 0}
-    - target: {fileID: 7174670304959970965, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      propertyPath: m_Name
-      value: Endoplasmic Reticulum
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: 624fd7054a9b87b4abd0d357a19a6626, type: 2}
     - target: {fileID: 8630735853204289212, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.46
@@ -3764,123 +3546,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: 8727736238184189265, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
+    - target: {fileID: 9017613374196830920, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 77f8c41cda1635444aeb2a3e4985eefc, type: 2}
-    - target: {fileID: 8952046684537797304, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 16f8bc7c2585c5a4fbdd83bd2c1262b0, type: 2}
+      objectReference: {fileID: 2100000, guid: a2420278f161a404aa8703d4a89088c5, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 492787097882763505, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8224868289440660088}
-    - targetCorrespondingSourceObject: {fileID: 5872106631686344009, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 9007890364905847548}
-    - targetCorrespondingSourceObject: {fileID: 5872106631686344009, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 9007890364905847547}
-    - targetCorrespondingSourceObject: {fileID: 4377346315558592952, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8341031622014934913}
-    - targetCorrespondingSourceObject: {fileID: 2799488695445514334, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8808850970253878518}
-    - targetCorrespondingSourceObject: {fileID: 3786307410310416843, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8003859611601879188}
-    - targetCorrespondingSourceObject: {fileID: 3786307410310416843, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8003859611601879187}
-    - targetCorrespondingSourceObject: {fileID: 6426201315473741996, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6374919350349488214}
-    - targetCorrespondingSourceObject: {fileID: 6426201315473741996, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6374919350349488213}
-    - targetCorrespondingSourceObject: {fileID: 1815264829383596701, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6898083143367546551}
-    - targetCorrespondingSourceObject: {fileID: 1815264829383596701, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6898083143367546550}
-    - targetCorrespondingSourceObject: {fileID: 7900528492525756102, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6292766860862908544}
-    - targetCorrespondingSourceObject: {fileID: 7900528492525756102, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6292766860862908543}
-    - targetCorrespondingSourceObject: {fileID: 7544779447790376169, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7715682896746663390}
-    - targetCorrespondingSourceObject: {fileID: 7544779447790376169, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7715682896746663389}
-    - targetCorrespondingSourceObject: {fileID: 4420207681303014265, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5251569417761509991}
-    - targetCorrespondingSourceObject: {fileID: 4420207681303014265, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5251569417761509990}
-    - targetCorrespondingSourceObject: {fileID: 2382851771771447245, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8887178715383904642}
-    - targetCorrespondingSourceObject: {fileID: 2382851771771447245, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8887178715383904641}
-    - targetCorrespondingSourceObject: {fileID: 4904341309632611014, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8963275166695842193}
-    - targetCorrespondingSourceObject: {fileID: 4904341309632611014, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8963275166695842192}
-    - targetCorrespondingSourceObject: {fileID: 7384669473363436158, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6774334831733024028}
-    - targetCorrespondingSourceObject: {fileID: 7384669473363436158, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6774334831733024027}
-    - targetCorrespondingSourceObject: {fileID: 8092822047029757562, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8811481056132573890}
-    - targetCorrespondingSourceObject: {fileID: 2854565264771690804, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5734182611437792331}
-    - targetCorrespondingSourceObject: {fileID: 6597923158541921594, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5839735654880629553}
-    - targetCorrespondingSourceObject: {fileID: 6597923158541921594, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5839735654880629552}
-    - targetCorrespondingSourceObject: {fileID: 1018017493917070024, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8037869395778526387}
-    - targetCorrespondingSourceObject: {fileID: 7174670304959970965, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6034798368242918343}
-    - targetCorrespondingSourceObject: {fileID: 7174670304959970965, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6034798368242918342}
-    - targetCorrespondingSourceObject: {fileID: 2337377321965169787, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8462121994533743629}
-    - targetCorrespondingSourceObject: {fileID: 4977291840518885472, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7457198946364233709}
-    - targetCorrespondingSourceObject: {fileID: 4977291840518885472, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7457198946364233710}
-    - targetCorrespondingSourceObject: {fileID: 2344699161642410662, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5885485143302079782}
-    - targetCorrespondingSourceObject: {fileID: 2344699161642410662, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5885485143302079783}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
 --- !u!1 &3507246653460119891 stripped
 GameObject:
@@ -4260,11 +3933,6 @@ Transform:
   - {fileID: 1495319695112456782}
   m_Father: {fileID: 3867222551269838332}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3976084996028983241 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7384669473363436158, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3976999886270919241
 Transform:
   m_ObjectHideFlags: 0
@@ -4574,11 +4242,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &4278894760265247396 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2382851771771447245, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4293784709279015744
 GameObject:
   m_ObjectHideFlags: 0
@@ -4960,11 +4623,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &4776242196238584970 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2337377321965169787, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4870816591505761162
 Transform:
   m_ObjectHideFlags: 0
@@ -5050,11 +4708,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6985431814504051390}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5127520953789156959 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1815264829383596701, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!23 &5132012633630418988
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5130,38 +4783,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &5251569417761509989 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4420207681303014265, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5251569417761509990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5251569417761509989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Mitochondrion
-  correctMaterial: {fileID: 2100000, guid: 7c119fc844ec09940be6a211b91dd7cb, type: 2}
---- !u!114 &5251569417761509991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5251569417761509989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  organelleName: 
 --- !u!23 &5296782700902947518
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5653,25 +5274,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &5717931585774281343 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7900528492525756102, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5734182611437792331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742813704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Golgi Apparatuss
-  correctMaterial: {fileID: 2100000, guid: 4ac7da46cce336a4d9be3fa851918881, type: 2}
 --- !u!33 &5792457570547676402
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5680,33 +5282,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8931515170347925324}
   m_Mesh: {fileID: -3160283151256545774, guid: 9b545d506946b51489e9814088e1ae76, type: 3}
---- !u!114 &5839735654880629552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4979720401565625852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Centrosome
-  correctMaterial: {fileID: 2100000, guid: 33aad4974fe06f447a916b8587775533, type: 2}
---- !u!114 &5839735654880629553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4979720401565625852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  organelleName: 
 --- !u!4 &5843123191518201060
 Transform:
   m_ObjectHideFlags: 0
@@ -5751,33 +5326,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.1233547, y: 1.2738659, z: 2.775833}
   m_Center: {x: -0.028235316, y: -0.015836656, z: 0.059133887}
---- !u!114 &5885485143302079782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1877185504135603074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  organelleName: 
---- !u!114 &5885485143302079783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1877185504135603074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Lysosomes
-  correctMaterial: {fileID: 2100000, guid: cd21caa4c57a99c41a27d7e6d2a70262, type: 2}
 --- !u!1 &5890067505909909297
 GameObject:
   m_ObjectHideFlags: 0
@@ -5914,33 +5462,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6034798368242918342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3522106410664545268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Endoplasmic Reticulum
-  correctMaterial: {fileID: 2100000, guid: 4ac7da46cce336a4d9be3fa851918881, type: 2}
---- !u!114 &6034798368242918343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3522106410664545268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  organelleName: 
 --- !u!23 &6057381485183782142
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6144,33 +5665,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6292766860862908543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5717931585774281343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Mitochondrion
-  correctMaterial: {fileID: 2100000, guid: 7c119fc844ec09940be6a211b91dd7cb, type: 2}
---- !u!114 &6292766860862908544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5717931585774281343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  organelleName: 
 --- !u!33 &6308751187226776763
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6338,38 +5832,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7752728663068235852}
   m_Mesh: {fileID: 4537431984779618231, guid: 9b545d506946b51489e9814088e1ae76, type: 3}
---- !u!1 &6374919350349488212 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6426201315473741996, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6374919350349488213
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6374919350349488212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Mitochondrion
-  correctMaterial: {fileID: 2100000, guid: 7c119fc844ec09940be6a211b91dd7cb, type: 2}
---- !u!114 &6374919350349488214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6374919350349488212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  organelleName: 
 --- !u!33 &6377896189820158629
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6576,33 +6038,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 420942893640836000}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6774334831733024027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3976084996028983241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Mitochondrion
-  correctMaterial: {fileID: 2100000, guid: 7c119fc844ec09940be6a211b91dd7cb, type: 2}
---- !u!114 &6774334831733024028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3976084996028983241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  organelleName: 
 --- !u!33 &6811999870838374998
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6781,33 +6216,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6898083143367546550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5127520953789156959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Mitochondrion
-  correctMaterial: {fileID: 2100000, guid: 7c119fc844ec09940be6a211b91dd7cb, type: 2}
---- !u!114 &6898083143367546551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5127520953789156959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  organelleName: 
 --- !u!1 &6953013963336023319
 GameObject:
   m_ObjectHideFlags: 0
@@ -6933,11 +6341,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4522745920752647242}
   m_Mesh: {fileID: -8301056406525438777, guid: 9b545d506946b51489e9814088e1ae76, type: 3}
---- !u!1 &7031906172057552746 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1018017493917070024, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &7109770992681854915
 GameObject:
   m_ObjectHideFlags: 0
@@ -7129,33 +6532,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4337633176710633211}
   m_Mesh: {fileID: 6284019458176341435, guid: 9b545d506946b51489e9814088e1ae76, type: 3}
---- !u!114 &7457198946364233709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2760109143985215073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  organelleName: 
---- !u!114 &7457198946364233710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2760109143985215073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Lysosomes
-  correctMaterial: {fileID: 2100000, guid: cd21caa4c57a99c41a27d7e6d2a70262, type: 2}
 --- !u!4 &7510345790750782759
 Transform:
   m_ObjectHideFlags: 0
@@ -7392,38 +6768,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &7715682896746663388 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7544779447790376169, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7715682896746663389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7715682896746663388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Mitochondrion
-  correctMaterial: {fileID: 2100000, guid: 7c119fc844ec09940be6a211b91dd7cb, type: 2}
---- !u!114 &7715682896746663390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7715682896746663388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  organelleName: 
 --- !u!1 &7752728663068235852
 GameObject:
   m_ObjectHideFlags: 0
@@ -7653,47 +6997,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8003859611601879187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1170995967090404205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Mitochondrion
-  correctMaterial: {fileID: 2100000, guid: 7c119fc844ec09940be6a211b91dd7cb, type: 2}
---- !u!114 &8003859611601879188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1170995967090404205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  organelleName: 
---- !u!114 &8037869395778526387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7031906172057552746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Endoplasmic Reticulum
-  correctMaterial: {fileID: 2100000, guid: 4ac7da46cce336a4d9be3fa851918881, type: 2}
 --- !u!33 &8066823864188611277
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7775,44 +7078,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4563748535079266186}
   m_Mesh: {fileID: -6502831626523473530, guid: 9b545d506946b51489e9814088e1ae76, type: 3}
---- !u!1 &8224868289440660086 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 492787097882763505, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8224868289440660088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8224868289440660086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: BezierCurve
-  correctMaterial: {fileID: 2100000, guid: e3c5e6968fca8b14f8e8467b35085f02, type: 2}
---- !u!1 &8341031622014934911 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4377346315558592952, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8341031622014934913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8341031622014934911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Nucleus
-  correctMaterial: {fileID: 2100000, guid: e3756cbe08ab5f4459a945984d32ebaf, type: 2}
 --- !u!1 &8348342779693216627
 GameObject:
   m_ObjectHideFlags: 0
@@ -7873,20 +7138,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &8462121994533743629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4776242196238584970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Lysosomes
-  correctMaterial: {fileID: 2100000, guid: cd21caa4c57a99c41a27d7e6d2a70262, type: 2}
 --- !u!1 &8516348767909954582
 GameObject:
   m_ObjectHideFlags: 0
@@ -8152,39 +7403,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1127466853184051178}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8808850970253878518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3147096876790139120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Mitochondrion
-  correctMaterial: {fileID: 2100000, guid: 7c119fc844ec09940be6a211b91dd7cb, type: 2}
---- !u!1 &8811481056132573888 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8092822047029757562, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
-  m_PrefabInstance: {fileID: 3507246653460119890}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8811481056132573890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8811481056132573888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Golgi Apparatuss
-  correctMaterial: {fileID: 2100000, guid: 4ac7da46cce336a4d9be3fa851918881, type: 2}
 --- !u!4 &8862614473345557317
 Transform:
   m_ObjectHideFlags: 0
@@ -8208,33 +7426,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1372173124963913112}
   m_Mesh: {fileID: 7286532796710350251, guid: 9b545d506946b51489e9814088e1ae76, type: 3}
---- !u!114 &8887178715383904641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4278894760265247396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Mitochondrion
-  correctMaterial: {fileID: 2100000, guid: 7c119fc844ec09940be6a211b91dd7cb, type: 2}
---- !u!114 &8887178715383904642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4278894760265247396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  organelleName: 
 --- !u!23 &8913630241297492193
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8321,33 +7512,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8963275166695842192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 934759076938775208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: Mitochondrion
-  correctMaterial: {fileID: 2100000, guid: 7c119fc844ec09940be6a211b91dd7cb, type: 2}
---- !u!114 &8963275166695842193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 934759076938775208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  organelleName: 
 --- !u!23 &8992640820583689005
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8390,33 +7554,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &9007890364905847547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3848905520217490313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935715a660a261843b3926e013440768, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expectedOrganelleName: BezierCurve
-  correctMaterial: {fileID: 2100000, guid: 7008772b5a0b53f439d649548170e67b, type: 2}
---- !u!114 &9007890364905847548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3848905520217490313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  organelleName: 
 --- !u!1 &9027270474213950049
 GameObject:
   m_ObjectHideFlags: 0
@@ -8651,5 +7788,3 @@ SceneRoots:
   - {fileID: 2013274833}
   - {fileID: 3507246653460119890}
   - {fileID: 369105496}
-  - {fileID: 1259012222}
-  - {fileID: 275033107}

@@ -30,32 +30,16 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2148987947491213190}
-  - {fileID: 816398419715983121}
-  - {fileID: 9007890366441485734}
-  - {fileID: 6877638196807482190}
+  - {fileID: 5295452520932094101}
   - {fileID: 2747737785474467398}
-  - {fileID: 8808850969793031080}
-  - {fileID: 4398252783955301465}
-  - {fileID: 425624218349954996}
-  - {fileID: 6068115539535480474}
-  - {fileID: 1181489407802450607}
-  - {fileID: 3574190631229320456}
-  - {fileID: 3306556048250558073}
-  - {fileID: 8887178717052712668}
-  - {fileID: 3945541150636475338}
-  - {fileID: 6774334832345918022}
+  - {fileID: 8476805430530962938}
   - {fileID: 5961686760958653987}
-  - {fileID: 5734182611898639131}
   - {fileID: 2396794848800891045}
-  - {fileID: 1482561789873770995}
-  - {fileID: 4808377299409535130}
-  - {fileID: 8037869397329892333}
+  - {fileID: 8697663613707844088}
+  - {fileID: 6375590131453615373}
   - {fileID: 1824787348497359199}
   - {fileID: 6072296896196374812}
-  - {fileID: 783240218611702073}
-  - {fileID: 7457198948050868400}
-  - {fileID: 3407845115174094985}
+  - {fileID: 4004284012583389378}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1222700614251664770
@@ -92,7 +76,7 @@ GameObject:
   - component: {fileID: 7034512023645418744}
   - component: {fileID: 8963275166082952915}
   m_Layer: 0
-  m_Name: Icosphere.009
+  m_Name: Mitochondrion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,12 +90,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 934759078608631284}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.3899675, y: 1.067348, z: -0.6375404}
-  m_LocalScale: {x: 114.41195, y: 114.41195, z: 114.41195}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0.38996696, y: 1.0673475, z: -0.6375408}
+  m_LocalScale: {x: 114.41196, y: 114.41195, z: 114.41195}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 8476805430530962938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7034512023645418744
 MeshFilter:
@@ -175,7 +159,7 @@ GameObject:
   - component: {fileID: 3883091681728710382}
   - component: {fileID: 8003859613137522638}
   m_Layer: 0
-  m_Name: Icosphere.002
+  m_Name: Mitochondrion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -189,12 +173,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1170995967686517809}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.21913414, y: 0.8868077, z: -1.1342769}
-  m_LocalScale: {x: 114.41195, y: 114.41195, z: 114.41195}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0.21913528, y: 0.88680744, z: -1.1342764}
+  m_LocalScale: {x: 114.41196, y: 114.41195, z: 114.41195}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 8476805430530962938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3883091681728710382
 MeshFilter:
@@ -274,11 +258,11 @@ Transform:
   m_GameObject: {fileID: 1877185504597503198}
   serializedVersion: 2
   m_LocalRotation: {x: 0.049014963, y: 0.7057937, z: 0.706657, w: -0.009418539}
-  m_LocalPosition: {x: 2.7169728, y: -0.13629359, z: 0.120630026}
-  m_LocalScale: {x: 5.249156, y: 4.511867, z: 4.511867}
+  m_LocalPosition: {x: 2.7169728, y: -0.13629365, z: 0.120630026}
+  m_LocalScale: {x: 5.2491565, y: 4.511867, z: 4.5118666}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 4004284012583389378}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5885485143913925241
 MeshFilter:
@@ -378,12 +362,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2223931452492941616}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.65708417, y: -0.26122862, z: -0.26122862, w: 0.65708417}
-  m_LocalPosition: {x: -2.2104208, y: -0.09793511, z: 1.2478473}
-  m_LocalScale: {x: 41.46964, y: 41.46964, z: 41.46964}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.029865118, y: -0.0070255687, z: 0.0030719987}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 9007890366441485734}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8293274810981144155
 MeshFilter:
@@ -531,7 +515,7 @@ GameObject:
   - component: {fileID: 2121502511495321477}
   - component: {fileID: 5581207085239892949}
   m_Layer: 0
-  m_Name: Cell Membrane
+  m_Name: Golgi Apparatus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -546,11 +530,11 @@ Transform:
   m_GameObject: {fileID: 2555355127995578844}
   serializedVersion: 2
   m_LocalRotation: {x: 0.4871236, y: 0.5066718, z: 0.53176284, w: -0.47246435}
-  m_LocalPosition: {x: 1.232932, y: -0.051715534, z: 2.3212678}
-  m_LocalScale: {x: 19.266552, y: 19.266554, z: 19.26655}
+  m_LocalPosition: {x: 1.2329321, y: -0.051715612, z: 2.3212678}
+  m_LocalScale: {x: 19.266552, y: 19.266554, z: 19.266552}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 8697663613707844088}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5447588012461883417
 MeshFilter:
@@ -652,12 +636,12 @@ Transform:
   m_GameObject: {fileID: 2760109145519806781}
   serializedVersion: 2
   m_LocalRotation: {x: 0.049014963, y: 0.7057937, z: 0.706657, w: -0.009418539}
-  m_LocalPosition: {x: 0.46572024, y: -0.019508578, z: 3.2256699}
-  m_LocalScale: {x: 5.249156, y: 4.511867, z: 4.511867}
+  m_LocalPosition: {x: 0.46572018, y: -0.0195086, z: 3.2256699}
+  m_LocalScale: {x: 5.2491565, y: 4.511867, z: 4.5118666}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8658948419856269070}
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 4004284012583389378}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2629131776705983208
 MeshFilter:
@@ -743,7 +727,7 @@ GameObject:
   - component: {fileID: 7738274047298863576}
   - component: {fileID: 3709340954188027677}
   m_Layer: 0
-  m_Name: Icosphere.001
+  m_Name: Mitochondrion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -757,12 +741,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3147096875104552876}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.57070726, y: 0.4758901, z: -0.6391049}
-  m_LocalScale: {x: 114.41195, y: 114.41195, z: 114.41195}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0.5707073, y: 0.47589064, z: -0.63910484}
+  m_LocalScale: {x: 114.41196, y: 114.41195, z: 114.41195}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 8476805430530962938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7738274047298863576
 MeshFilter:
@@ -909,7 +893,7 @@ GameObject:
   - component: {fileID: 3876123555370153923}
   - component: {fileID: 6034798366573063321}
   m_Layer: 0
-  m_Name: Roundcube.003
+  m_Name: Endoplasmic Reticulum
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -924,11 +908,11 @@ Transform:
   m_GameObject: {fileID: 3522106412199134376}
   serializedVersion: 2
   m_LocalRotation: {x: 0.4871236, y: 0.5066718, z: 0.53176284, w: -0.47246435}
-  m_LocalPosition: {x: 2.2425299, y: -0.11480745, z: 1.7994676}
-  m_LocalScale: {x: 19.266552, y: 19.266554, z: 19.26655}
+  m_LocalPosition: {x: 2.2425299, y: -0.11480737, z: 1.7994676}
+  m_LocalScale: {x: 19.266552, y: 19.266554, z: 19.266552}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 6375590131453615373}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3876123555370153923
 MeshFilter:
@@ -992,7 +976,7 @@ GameObject:
   - component: {fileID: 2170205613265018291}
   - component: {fileID: 2517774661892012554}
   m_Layer: 0
-  m_Name: BezierCurve.002
+  m_Name: BezierCurve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1007,11 +991,13 @@ Transform:
   m_GameObject: {fileID: 3848905520812559573}
   serializedVersion: 2
   m_LocalRotation: {x: -0.65708417, y: -0.26122862, z: -0.26122862, w: 0.65708417}
-  m_LocalPosition: {x: -1.1099492, y: -0.2253299, z: 1.886373}
-  m_LocalScale: {x: 41.46964, y: 41.46964, z: 41.46964}
+  m_LocalPosition: {x: -1.1099482, y: -0.2253294, z: 1.8863726}
+  m_LocalScale: {x: 41.469643, y: 41.46964, z: 41.469643}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Children:
+  - {fileID: 6877638196807482190}
+  - {fileID: 816398419715983121}
+  m_Father: {fileID: 5295452520932094101}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2170205613265018291
 MeshFilter:
@@ -1075,7 +1061,7 @@ GameObject:
   - component: {fileID: 1142973739616941089}
   - component: {fileID: 4439925748011474846}
   m_Layer: 0
-  m_Name: Icosphere.010
+  m_Name: Mitochondrion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1089,12 +1075,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3976084995568134293}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.16165644, y: 0.88211566, z: -0.6466712}
-  m_LocalScale: {x: 114.41195, y: 114.41195, z: 114.41195}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0.16165733, y: 0.88211536, z: -0.64667225}
+  m_LocalScale: {x: 114.41196, y: 114.41195, z: 114.41195}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 8476805430530962938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1142973739616941089
 MeshFilter:
@@ -1159,7 +1145,7 @@ GameObject:
   - component: {fileID: 548261892313540400}
   - component: {fileID: 8281462940631949669}
   m_Layer: 0
-  m_Name: Vesicles
+  m_Name: Mitochondrion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1173,12 +1159,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4278894760861361656}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.8339352, y: 0.8827708, z: -0.9348314}
-  m_LocalScale: {x: 114.41195, y: 114.41195, z: 114.41195}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0.83393574, y: 0.882771, z: -0.9348321}
+  m_LocalScale: {x: 114.41196, y: 114.41195, z: 114.41195}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 8476805430530962938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4864187986781563038
 MeshFilter:
@@ -1252,6 +1238,39 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4245423045921417453, guid: 0d7a2643cf09da04cb2957c41bec5652, type: 3}
+--- !u!1 &4536774373341525515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8697663613707844088}
+  m_Layer: 0
+  m_Name: Golgi Apparatus Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8697663613707844088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4536774373341525515}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5734182611898639131}
+  - {fileID: 1482561789873770995}
+  m_Father: {fileID: 3072552384546239902}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4776242195642467286
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,10 +1300,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.049014963, y: 0.7057937, z: 0.706657, w: -0.009418539}
   m_LocalPosition: {x: -0.83051586, y: -0.12689638, z: -2.284108}
-  m_LocalScale: {x: 5.249156, y: 4.511867, z: 4.511867}
+  m_LocalScale: {x: 5.2491565, y: 4.511867, z: 4.5118666}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 4004284012583389378}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4188276301434176893
 MeshFilter:
@@ -1559,7 +1578,7 @@ GameObject:
   - component: {fileID: 6145197712261106417}
   - component: {fileID: 6898083143828396521}
   m_Layer: 0
-  m_Name: Icosphere.004
+  m_Name: Mitochondrion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1573,12 +1592,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5127520955323744515}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.091485105, y: 0.47240707, z: -1.5257394}
-  m_LocalScale: {x: 114.41195, y: 114.41195, z: 114.41195}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0.09148598, y: 0.47240734, z: -1.5257382}
+  m_LocalScale: {x: 114.41196, y: 114.41195, z: 114.41195}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 8476805430530962938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6145197712261106417
 MeshFilter:
@@ -1643,7 +1662,7 @@ GameObject:
   - component: {fileID: 4876999263388882415}
   - component: {fileID: 247329424569340420}
   m_Layer: 0
-  m_Name: Vesicles
+  m_Name: Mitochondrion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1657,12 +1676,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5251569418356579641}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 1.2891335, y: 0.5441302, z: -0.64591086}
-  m_LocalScale: {x: 114.41195, y: 114.41195, z: 114.41195}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 1.289134, y: 0.5441308, z: -0.6459117}
+  m_LocalScale: {x: 114.41196, y: 114.41195, z: 114.41195}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 8476805430530962938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4563156188522356646
 MeshFilter:
@@ -1748,7 +1767,7 @@ GameObject:
   - component: {fileID: 6292766862415324962}
   - component: {fileID: 5418191868234264031}
   m_Layer: 0
-  m_Name: Icosphere.005
+  m_Name: Mitochondrion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1762,12 +1781,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5717931584104426787}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.6621128, y: 0.5490446, z: -1.4600495}
-  m_LocalScale: {x: 114.41195, y: 114.41195, z: 114.41195}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0.66211224, y: 0.5490446, z: -1.4600492}
+  m_LocalScale: {x: 114.41196, y: 114.41195, z: 114.41195}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 8476805430530962938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6292766862415324962
 MeshFilter:
@@ -1819,6 +1838,81 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6032878948655104196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8476805430530962938}
+  m_Layer: 0
+  m_Name: Mitochondrion Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8476805430530962938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6032878948655104196}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8808850969793031080}
+  - {fileID: 4398252783955301465}
+  - {fileID: 425624218349954996}
+  - {fileID: 6068115539535480474}
+  - {fileID: 1181489407802450607}
+  - {fileID: 3574190631229320456}
+  - {fileID: 3945541150636475338}
+  - {fileID: 6774334832345918022}
+  - {fileID: 3306556048250558073}
+  - {fileID: 8887178717052712668}
+  m_Father: {fileID: 3072552384546239902}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6277990489416821077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4004284012583389378}
+  m_Layer: 0
+  m_Name: Lysosomes  Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4004284012583389378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6277990489416821077}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 783240218611702073}
+  - {fileID: 7457198948050868400}
+  - {fileID: 3407845115174094985}
+  m_Father: {fileID: 3072552384546239902}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6374919351900860168
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,12 +1940,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6374919351900860168}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.33414894, y: 0.54801524, z: -1.1411195}
-  m_LocalScale: {x: 114.41195, y: 114.41195, z: 114.41195}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0.3341484, y: 0.54801464, z: -1.141119}
+  m_LocalScale: {x: 114.41196, y: 114.41195, z: 114.41195}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 8476805430530962938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3239680782694824504
 MeshFilter:
@@ -1953,11 +2047,11 @@ Transform:
   m_GameObject: {fileID: 7031906172535179318}
   serializedVersion: 2
   m_LocalRotation: {x: 0.4871236, y: 0.5066718, z: 0.53176284, w: -0.47246435}
-  m_LocalPosition: {x: -1.9133443, y: -0.20726341, z: -0.20266284}
-  m_LocalScale: {x: 19.266552, y: 19.266554, z: 19.26655}
+  m_LocalPosition: {x: -1.9133444, y: -0.20726347, z: -0.20266294}
+  m_LocalScale: {x: 19.266552, y: 19.266554, z: 19.266552}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 6375590131453615373}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3592354930754499187
 MeshFilter:
@@ -2031,6 +2125,39 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8638456120196982653, guid: 0d7a2643cf09da04cb2957c41bec5652, type: 3}
+--- !u!1 &7124180678548382535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5295452520932094101}
+  m_Layer: 0
+  m_Name: BezierCurve Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5295452520932094101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7124180678548382535}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2148987947491213190}
+  - {fileID: 9007890366441485734}
+  m_Father: {fileID: 3072552384546239902}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7715682898299077248
 GameObject:
   m_ObjectHideFlags: 0
@@ -2043,7 +2170,7 @@ GameObject:
   - component: {fileID: 4823980985439280057}
   - component: {fileID: 3582713939697953738}
   m_Layer: 0
-  m_Name: Icosphere.006
+  m_Name: Mitochondrion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2057,12 +2184,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7715682898299077248}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 1.1722535, y: 0.46876466, z: -1.1792598}
-  m_LocalScale: {x: 114.41195, y: 114.41195, z: 114.41195}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 1.1722541, y: 0.4687643, z: -1.1792588}
+  m_LocalScale: {x: 114.41196, y: 114.41195, z: 114.41195}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 8476805430530962938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4823980985439280057
 MeshFilter:
@@ -2197,6 +2324,39 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7994501780404637609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6375590131453615373}
+  m_Layer: 0
+  m_Name: Endoplasmic Reticulum Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6375590131453615373
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7994501780404637609}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4808377299409535130}
+  - {fileID: 8037869397329892333}
+  m_Father: {fileID: 3072552384546239902}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8224868288844543274
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,12 +2384,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8224868288844543274}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.50149655, y: -0.13768348, z: -0.40113127}
-  m_LocalScale: {x: 114.41195, y: 114.41195, z: 114.41195}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0.5014968, y: -0.13768435, z: -0.4011321}
+  m_LocalScale: {x: 114.41196, y: 114.41195, z: 114.41195}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 5295452520932094101}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5975248305057725118
 MeshFilter:
@@ -2435,12 +2595,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8361361296470481723}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.65708417, y: -0.26122862, z: -0.26122862, w: 0.65708417}
-  m_LocalPosition: {x: -0.120571494, y: -0.13063018, z: 2.051294}
-  m_LocalScale: {x: 41.46964, y: 41.46964, z: 41.46964}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.020076143, y: 0.013489394, z: 0.0022836071}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 9007890366441485734}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1603840762156725788
 MeshFilter:
@@ -2520,11 +2680,11 @@ Transform:
   m_GameObject: {fileID: 8811481055519679900}
   serializedVersion: 2
   m_LocalRotation: {x: 0.4871236, y: 0.5066718, z: 0.53176284, w: -0.47246435}
-  m_LocalPosition: {x: 0.8030366, y: -0.073471814, z: 2.374737}
-  m_LocalScale: {x: 19.266552, y: 19.266554, z: 19.26655}
+  m_LocalPosition: {x: 0.8030367, y: -0.073471785, z: 2.374737}
+  m_LocalScale: {x: 19.266552, y: 19.266554, z: 19.266552}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3072552384546239902}
+  m_Father: {fileID: 8697663613707844088}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8454199857579846537
 MeshFilter:
