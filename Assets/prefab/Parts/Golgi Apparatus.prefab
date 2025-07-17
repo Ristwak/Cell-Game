@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1719186203478335854}
   - component: {fileID: 1793822133154590405}
   - component: {fileID: 402634931218887641}
+  - component: {fileID: -5687376702671612311}
   m_Layer: 0
   m_Name: Golgi Apparatus
   m_TagString: Untagged
@@ -106,3 +107,16 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 9019197023114797182, guid: 0d7a2643cf09da04cb2957c41bec5652, type: 3}
+--- !u!114 &-5687376702671612311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997374183020145024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  organelleName: 

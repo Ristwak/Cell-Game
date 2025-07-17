@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6189629038349324382}
   - component: {fileID: 8863213602030245740}
   - component: {fileID: 5541502288531510873}
+  - component: {fileID: -9143233276933985925}
   m_Layer: 0
   m_Name: Mitochondrion
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-9143233276933985925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3794803923953475367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd103c74772ea14dad8dfe9f788d8f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  organelleName: 
