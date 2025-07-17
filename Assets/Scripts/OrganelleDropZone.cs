@@ -8,6 +8,7 @@ public class OrganelleDropZone : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         OrganelleItem item = other.GetComponent<OrganelleItem>();
+        Debug.Log($"OrganelleDropZone: Triggered with {other.gameObject.name}");
         if (item != null && item.organelleName == expectedOrganelleName)
         {
             // Destroy the held object

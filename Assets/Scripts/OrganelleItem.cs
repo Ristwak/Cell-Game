@@ -10,18 +10,4 @@ public class OrganelleItem : MonoBehaviour
         initialPosition = transform.position;
         organelleName = gameObject.name;
     }
-
-    public void LockToPosition(Vector3 correctPos)
-    {
-        transform.position = correctPos;
-        GetComponent<Rigidbody>().isKinematic = true;
-        GetComponent<Collider>().enabled = false;
-        // Optional: disable grabbing
-    }
-
-    public void ReturnToOriginal()
-    {
-        transform.position = initialPosition;
-        // Optional: shake or flash red
-    }
 }
