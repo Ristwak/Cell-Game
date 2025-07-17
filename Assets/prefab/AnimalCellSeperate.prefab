@@ -484,6 +484,7 @@ GameObject:
   - component: {fileID: 5734182611898639131}
   - component: {fileID: 5447588012461883417}
   - component: {fileID: 2121502511495321477}
+  - component: {fileID: 5581207085239892949}
   m_Layer: 0
   m_Name: Roundcube.000
   m_TagString: Untagged
@@ -556,6 +557,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5581207085239892949
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2555355127995578844}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6870160589121212964, guid: 0d7a2643cf09da04cb2957c41bec5652, type: 3}
 --- !u!1 &2760109145519806781
 GameObject:
   m_ObjectHideFlags: 0
