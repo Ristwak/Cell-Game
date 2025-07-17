@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: HomiLab
-  productName: Ohms Law
+  productName: Cell Game
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -140,7 +140,12 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.2
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 7025474651438306479, guid: f36b494d1117c51448bf1d7d8214206d, type: 2}
+  - {fileID: 11400000, guid: 93a5bfa480332034487f95596fabea0b, type: 2}
+  - {fileID: 2018845160464258778, guid: 602b4dec4a694994199b04a1f5c53cce, type: 2}
+  - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
+  - {fileID: 4800000, guid: 0945859e5a1034c2cb6dce53cb4fb899, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -161,7 +166,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.HomiLab.OhmsLaw
+    Android: com.HomiLab.CellGame
     Standalone: com.HomiLab.Ohms-Law
   buildNumber:
     Standalone: 0
