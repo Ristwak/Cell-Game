@@ -1,0 +1,64 @@
+{
+  "organelles": [
+    {
+      "name": "BezierCurve",
+      "description": "Helps visualize or simulate a structure path in the cell.",
+      "function": "Placeholder visual component, not a real organelle."
+    },
+    {
+      "name": "BezierCurve 2",
+      "description": "Another Bezier curve for visual representation.",
+      "function": "Placeholder visual component, not a real organelle."
+    },
+    {
+      "name": "Nucleus",
+      "description": "Control center of the cell containing genetic material (DNA).",
+      "function": "Regulates cell activities and stores genetic information."
+    },
+    {
+      "name": "Mitochondrion",
+      "description": "Powerhouse of the cell.",
+      "function": "Generates energy in the form of ATP."
+    },
+    {
+      "name": "Cell Membrane",
+      "description": "Outer boundary of the cell.",
+      "function": "Controls the movement of substances in and out of the cell."
+    },
+    {
+      "name": "Centrosome",
+      "description": "Structure involved in cell division.",
+      "function": "Organizes microtubules and provides structure."
+    },
+    {
+      "name": "Golgi Apparatus",
+      "description": "Modifies, sorts, and packages proteins and lipids.",
+      "function": "Prepares molecules for use inside or outside the cell."
+    },
+    {
+      "name": "Endoplasmic Reticulum 1",
+      "description": "Network of membranes within the cell.",
+      "function": "Synthesizes proteins and lipids."
+    },
+    {
+      "name": "Endoplasmic Reticulum 2",
+      "description": "Another ER section for modeling clarity.",
+      "function": "Also contributes to protein/lipid synthesis."
+    },
+    {
+      "name": "Lysosomes 1",
+      "description": "Organelles containing digestive enzymes.",
+      "function": "Break down waste materials and cellular debris."
+    },
+    {
+      "name": "Lysosomes 2",
+      "description": "Second lysosome model.",
+      "function": "Part of the digestive system of the cell."
+    },
+    {
+      "name": "Lysosomes 3",
+      "description": "Third lysosome model.",
+      "function": "Continues breakdown of materials."
+    }
+  ]
+}
