@@ -20,17 +20,21 @@ public class OrganelleList
 
 public class QuestionManager : MonoBehaviour
 {
-    public TextMeshProUGUI questionText;  // ✅ Will show description now
-    public TextMeshProUGUI functionText;  // ✅ Optional, shows function
+    public TextMeshProUGUI questionText;
+    public TextMeshProUGUI functionText;
     public static string currentCorrectOrganelle;
     public static event System.Action<string> OnCorrectOrganelleChanged;
 
-    public string jsonFileName = "CellSafariOrganelles"; // Without .json
+    public string jsonFileName = "CellSafariOrganelles";
     private List<OrganelleData> organelles;
     private List<OrganelleData> unusedQuestions;
 
+    private MainGameManager gameManager;  // ✅ Reference to MainGameManager
+
     void Start()
     {
+        gameManager = FindObjectOfType<MainGameManager>();  // ✅ Auto find the GameManager
+
         LoadQuestions();
         if (organelles != null && organelles.Count > 0)
         {
@@ -63,6 +67,13 @@ public class QuestionManager : MonoBehaviour
         {
             questionText.text = "🎉 All organelles placed!";
             functionText.text = "";
+
+            // ✅ Call MainGameManager's method
+            if (gameManager != null)
+                gameManager.DeactivateGameObjects();
+            else
+                Debug.LogWarning("⚠️ MainGameManager not found!");
+
             return;
         }
 
@@ -70,13 +81,9 @@ public class QuestionManager : MonoBehaviour
         OrganelleData current = unusedQuestions[randomIndex];
         unusedQuestions.RemoveAt(randomIndex);
 
-        // ✅ Use JSON description as the question
         questionText.text = current.description;
-
-        // ✅ Optionally show function if field exists
         functionText.text = current.function;
 
-        // ✅ Update correct organelle reference
         currentCorrectOrganelle = !string.IsNullOrEmpty(current.correctAnswer)
             ? current.correctAnswer
             : current.correctName;
