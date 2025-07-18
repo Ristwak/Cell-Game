@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
 using UnityEngine.XR.Interaction.Toolkit;
+using System;
 
 [System.Serializable]
 public class OrganelleData
@@ -21,22 +22,26 @@ public class OrganelleList
 
 public class OrganelleQuestionManager : MonoBehaviour
 {
+    [Header("UI")]
     public TextMeshProUGUI descriptionText;
     public TextMeshProUGUI functionText;
     public string jsonFileName = "CellSafariOrganelles"; // without .json
 
+    [Header("State")]
     private List<OrganelleData> organelles;
     private int currentIndex = 0;
     private string correctAnswer;
 
-    private OrganelleItem[] allOrganelles;
+    private List<OrganelleInteractionLock> allOrganelles = new List<OrganelleInteractionLock>();
+
+    // ✅ Static event and correct organelle info for other scripts to subscribe
+    public static string currentCorrectOrganelle;
+    public static event Action<string> OnCorrectOrganelleChanged;
 
     void Start()
     {
         LoadQuestions();
         ShuffleQuestions();
-
-        allOrganelles = FindObjectsOfType<OrganelleItem>();
         ShowCurrentQuestion();
     }
 
@@ -58,7 +63,7 @@ public class OrganelleQuestionManager : MonoBehaviour
         for (int i = 0; i < organelles.Count; i++)
         {
             OrganelleData temp = organelles[i];
-            int rand = Random.Range(i, organelles.Count);
+            int rand = UnityEngine.Random.Range(i, organelles.Count);
             organelles[i] = organelles[rand];
             organelles[rand] = temp;
         }
@@ -77,7 +82,11 @@ public class OrganelleQuestionManager : MonoBehaviour
         OrganelleData current = organelles[currentIndex];
         descriptionText.text = current.description;
         functionText.text = current.function;
+
         correctAnswer = !string.IsNullOrEmpty(current.correctAnswer) ? current.correctAnswer : current.correctName;
+
+        currentCorrectOrganelle = correctAnswer;
+        OnCorrectOrganelleChanged?.Invoke(currentCorrectOrganelle); // 🔥 Trigger the event
 
         UpdateGrabbableOrganelleStates();
     }
@@ -86,11 +95,7 @@ public class OrganelleQuestionManager : MonoBehaviour
     {
         foreach (var item in allOrganelles)
         {
-            var grab = item.GetComponent<XRGrabInteractable>();
-            if (grab != null)
-            {
-                grab.enabled = (item.organelleName == correctAnswer);
-            }
+            item.SetGrabbable(item.organelleName == correctAnswer);
         }
     }
 
@@ -98,11 +103,7 @@ public class OrganelleQuestionManager : MonoBehaviour
     {
         foreach (var item in allOrganelles)
         {
-            var grab = item.GetComponent<XRGrabInteractable>();
-            if (grab != null)
-            {
-                grab.enabled = false;
-            }
+            item.SetGrabbable(false);
         }
     }
 
@@ -110,5 +111,14 @@ public class OrganelleQuestionManager : MonoBehaviour
     {
         currentIndex++;
         ShowCurrentQuestion();
+    }
+
+    // Called by OrganelleInteractionLock during Start()
+    public void RegisterOrganelle(OrganelleInteractionLock organelle)
+    {
+        if (!allOrganelles.Contains(organelle))
+        {
+            allOrganelles.Add(organelle);
+        }
     }
 }

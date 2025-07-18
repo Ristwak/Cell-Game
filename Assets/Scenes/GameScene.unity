@@ -1636,6 +1636,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 887933418}
   m_CullTransparentMesh: 1
+--- !u!1 &934252560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 934252562}
+  - component: {fileID: 934252561}
+  m_Layer: 0
+  m_Name: QuestionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &934252561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934252560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea00dc7bf33a45542ac3c7afb8c8f08b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 332389358}
+  organelleNames:
+  - Rough ER
+  - Smooth ER
+  - Endoplasmic Reticulum
+  - Golgi Apparatus
+  - Lysosomes
+  - Mitochondrion
+  - Nucleus
+--- !u!4 &934252562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934252560}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &943961617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1767,6 +1820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a494f4fc526d8f849beb450ed9ba20c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organelleName: 
 --- !u!1001 &1080076243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1977,6 +2031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a494f4fc526d8f849beb450ed9ba20c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organelleName: 
 --- !u!1 &1294689218 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7384669473363436158, guid: 6b1b91cbbd37a0e438bf665e131e81df, type: 3}
@@ -2490,6 +2545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a494f4fc526d8f849beb450ed9ba20c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organelleName: 
 --- !u!1 &1875765875 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3660136849252305077, guid: 128456e37d96b8b40afb80afcb02a4f2, type: 3}
@@ -2519,6 +2575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a494f4fc526d8f849beb450ed9ba20c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organelleName: 
 --- !u!1 &1897597042
 GameObject:
   m_ObjectHideFlags: 0
@@ -2655,6 +2712,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a494f4fc526d8f849beb450ed9ba20c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organelleName: 
 --- !u!1 &1962133688 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1696050533504249001, guid: e51f2a007d1088547b74b4ff8626382f, type: 3}
@@ -2684,6 +2742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a494f4fc526d8f849beb450ed9ba20c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organelleName: 
 --- !u!1 &1988788788
 GameObject:
   m_ObjectHideFlags: 0
@@ -3005,6 +3064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a494f4fc526d8f849beb450ed9ba20c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  organelleName: 
 --- !u!33 &56864525315828518
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10281,3 +10341,4 @@ SceneRoots:
   - {fileID: 838519580}
   - {fileID: 1345947877}
   - {fileID: 305961514}
+  - {fileID: 934252562}
