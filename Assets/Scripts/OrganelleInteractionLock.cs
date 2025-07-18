@@ -12,19 +12,18 @@ public class OrganelleInteractionLock : MonoBehaviour
         organelleName = gameObject.name;
     }
 
-    private void Start()
+    void OnEnable()
     {
-        // Register with manager
-        OrganelleQuestionManager manager = FindObjectOfType<OrganelleQuestionManager>();
-        if (manager != null)
-        {
-            manager.RegisterOrganelle(this);
-        }
+        QuestionManager.OnCorrectOrganelleChanged += HandleOrganelleChange;
     }
 
-    // Called by manager to set whether this organelle is currently grabbable
-    public void SetGrabbable(bool isEnabled)
+    void OnDisable()
     {
-        grabInteractable.enabled = isEnabled;
+        QuestionManager.OnCorrectOrganelleChanged -= HandleOrganelleChange;
+    }
+
+    void HandleOrganelleChange(string currentCorrectName)
+    {
+        grabInteractable.enabled = organelleName == currentCorrectName;
     }
 }
