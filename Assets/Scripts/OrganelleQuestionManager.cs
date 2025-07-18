@@ -1,8 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+using UnityEngine.XR.Interaction.Toolkit;
 
 [System.Serializable]
 public class OrganelleData
@@ -10,8 +9,8 @@ public class OrganelleData
     public string name;
     public string description;
     public string function;
-    public string correctAnswer; // optional
-    public string correctName;   // optional
+    public string correctAnswer;
+    public string correctName;
 }
 
 [System.Serializable]
@@ -30,9 +29,14 @@ public class OrganelleQuestionManager : MonoBehaviour
     private int currentIndex = 0;
     private string correctAnswer;
 
+    private OrganelleItem[] allOrganelles;
+
     void Start()
     {
         LoadQuestions();
+        ShuffleQuestions();
+
+        allOrganelles = FindObjectsOfType<OrganelleItem>();
         ShowCurrentQuestion();
     }
 
@@ -49,73 +53,62 @@ public class OrganelleQuestionManager : MonoBehaviour
         }
     }
 
+    void ShuffleQuestions()
+    {
+        for (int i = 0; i < organelles.Count; i++)
+        {
+            OrganelleData temp = organelles[i];
+            int rand = Random.Range(i, organelles.Count);
+            organelles[i] = organelles[rand];
+            organelles[rand] = temp;
+        }
+    }
+
     void ShowCurrentQuestion()
     {
         if (currentIndex >= organelles.Count)
         {
-            Debug.Log("✅ All questions completed!");
+            descriptionText.text = "🎉 All questions completed!";
+            functionText.text = "";
+            DisableAllGrabbables();
             return;
         }
 
         OrganelleData current = organelles[currentIndex];
-
-        descriptionText.text = $"{current.description}";
-        functionText.text = $"{current.function}";
-
-        // Decide correct answer
+        descriptionText.text = current.description;
+        functionText.text = current.function;
         correctAnswer = !string.IsNullOrEmpty(current.correctAnswer) ? current.correctAnswer : current.correctName;
-        Debug.Log("Correct organelle to select: " + correctAnswer);
+
+        UpdateGrabbableOrganelleStates();
     }
 
-    // This should be called by each organelle when clicked
-    public void OnOrganelleSelected(GameObject selectedObj)
+    void UpdateGrabbableOrganelleStates()
     {
-        string selectedName = selectedObj.name;
-
-        if (selectedName == correctAnswer)
+        foreach (var item in allOrganelles)
         {
-            Debug.Log("✅ Correct organelle selected!");
-
-            // Apply correct animation
-            PlayFeedback(selectedObj, true);
+            var grab = item.GetComponent<XRGrabInteractable>();
+            if (grab != null)
+            {
+                grab.enabled = (item.organelleName == correctAnswer);
+            }
         }
-        else
+    }
+
+    void DisableAllGrabbables()
+    {
+        foreach (var item in allOrganelles)
         {
-            Debug.Log($"❌ Incorrect organelle. Selected: {selectedName}, Expected: {correctAnswer}");
-
-            // Apply wrong animation
-            PlayFeedback(selectedObj, false);
+            var grab = item.GetComponent<XRGrabInteractable>();
+            if (grab != null)
+            {
+                grab.enabled = false;
+            }
         }
+    }
 
+    public void OnCorrectOrganallePlaced()
+    {
         currentIndex++;
         ShowCurrentQuestion();
-    }
-
-    void PlayFeedback(GameObject obj, bool isCorrect)
-    {
-        // ✅ Trigger VR haptic
-        // You may use OVRInput / XR toolkit or OpenXR's Haptics here.
-        // Placeholder:
-        // HapticManager.Instance.TriggerHapticPulse();
-
-        // ✅ Play Audio
-        AudioSource audio = obj.GetComponent<AudioSource>();
-        if (audio != null)
-        {
-            AudioClip clip = isCorrect ? Resources.Load<AudioClip>("Audio/correct") : Resources.Load<AudioClip>("Audio/wrong");
-            audio.PlayOneShot(clip);
-        }
-
-        // ✅ Trigger Animation
-        Animator anim = obj.GetComponent<Animator>();
-        if (anim != null)
-        {
-            anim.SetTrigger(isCorrect ? "Correct" : "Wrong");
-        }
-        else
-        {
-            // fallback: simple scale bounce
-            LeanTween.scale(obj, obj.transform.localScale * 1.2f, 0.2f).setEasePunch();
-        }
     }
 }

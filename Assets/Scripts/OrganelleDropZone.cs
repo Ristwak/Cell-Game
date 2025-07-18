@@ -41,6 +41,11 @@ public class OrganelleDropZone : MonoBehaviour
             if (isCorrect)
             {
                 StartCoroutine(AnimateBounce());
+                QuestionManager qm = FindObjectOfType<QuestionManager>();
+                if (qm != null)
+                {
+                    qm.ShowNextQuestion();
+                }
             }
             else
             {
