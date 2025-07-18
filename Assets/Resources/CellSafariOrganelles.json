@@ -4,13 +4,13 @@
             "name": "Rough ER",
             "description": "Network of membranes with ribosomes attached.",
             "function": "Synthesizes proteins.",
-            "correctAnswer": "Rough Endoplasmic Reticulum"
+            "correctAnswer": "Rough ER"
         },
         {
             "name": "Smooth ER",
             "description": "Network of smooth membranes without ribosomes.",
             "function": "Synthesizes lipids and detoxifies harmful substances.",
-            "correctAnswer": "Smooth Endoplasmic Reticulum"
+            "correctAnswer": "Smooth ER"
         },
         {
             "name": "Nucleus",
