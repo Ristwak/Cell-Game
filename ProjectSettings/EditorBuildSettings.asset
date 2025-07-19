@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/HomeScene.unity
     guid: fe7b77d6b57943340aa27ab05814a8dc
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
+    path: Assets/Scenes/AnimalCell.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8c80141c8a09a6f41b79bfd940b9dbce, type: 2}

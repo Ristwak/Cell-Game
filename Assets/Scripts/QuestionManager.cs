@@ -20,8 +20,15 @@ public class OrganelleList
 
 public class QuestionManager : MonoBehaviour
 {
+    [Header("UI")]
     public TextMeshProUGUI questionText;
     public TextMeshProUGUI functionText;
+
+    [Header("Audio")]
+    public AudioClip questionPopupSound;
+    public AudioClip completionSound;
+    private AudioSource audioSource;
+
     public static string currentCorrectOrganelle;
     public static event System.Action<string> OnCorrectOrganelleChanged;
 
@@ -29,11 +36,12 @@ public class QuestionManager : MonoBehaviour
     private List<OrganelleData> organelles;
     private List<OrganelleData> unusedQuestions;
 
-    private MainGameManager gameManager;  // ✅ Reference to MainGameManager
+    private MainGameManager gameManager;
 
     void Start()
     {
-        gameManager = FindObjectOfType<MainGameManager>();  // ✅ Auto find the GameManager
+        gameManager = FindObjectOfType<MainGameManager>();
+        audioSource = GetComponent<AudioSource>();
 
         LoadQuestions();
         if (organelles != null && organelles.Count > 0)
@@ -68,11 +76,14 @@ public class QuestionManager : MonoBehaviour
             questionText.text = "🎉 All organelles placed!";
             functionText.text = "";
 
-            // ✅ Call MainGameManager's method
             if (gameManager != null)
                 gameManager.DeactivateGameObjects();
             else
                 Debug.LogWarning("⚠️ MainGameManager not found!");
+
+            // 🔊 Play game completion sound
+            if (completionSound != null && audioSource != null)
+                audioSource.PlayOneShot(completionSound);
 
             return;
         }
@@ -89,10 +100,14 @@ public class QuestionManager : MonoBehaviour
             : current.correctName;
 
         OnCorrectOrganelleChanged?.Invoke(currentCorrectOrganelle);
+
+        // 🔊 Play question popup sound
+        if (questionPopupSound != null && audioSource != null)
+            audioSource.PlayOneShot(questionPopupSound);
     }
 
     public bool CheckAnswer(OrganelleItem item)
     {
-        return item.organelleName.Trim().ToLower() == QuestionManager.currentCorrectOrganelle.Trim().ToLower();
+        return item.organelleName.Trim().ToLower() == currentCorrectOrganelle.Trim().ToLower();
     }
 }

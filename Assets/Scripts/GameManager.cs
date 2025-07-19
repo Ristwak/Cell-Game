@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     public void StartButton()
     {
         loadingPanel.SetActive(true);
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("AnimalCell");
         homePanel.SetActive(false);
         aboutPanel.SetActive(false);
         // Load the first scene or start the game logic
