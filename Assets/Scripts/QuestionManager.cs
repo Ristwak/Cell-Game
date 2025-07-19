@@ -90,4 +90,9 @@ public class QuestionManager : MonoBehaviour
 
         OnCorrectOrganelleChanged?.Invoke(currentCorrectOrganelle);
     }
+
+    public bool CheckAnswer(OrganelleItem item)
+    {
+        return item.organelleName.Trim().ToLower() == QuestionManager.currentCorrectOrganelle.Trim().ToLower();
+    }
 }
